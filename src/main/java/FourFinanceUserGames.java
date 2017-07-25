@@ -5,9 +5,9 @@ public class FourFinanceUserGames {
 
     public static void main(String[] argv) throws InterruptedException  {
         String userName = "mkgray";
-        String firefoxProfile; //= "SimBin";
+        String firefoxProfile = "SimBin";
 
-        firefoxProfile = argv[0];
+       // firefoxProfile = argv[0];
         GetUserGameCollection getUGC = new GetUserGameCollection();
         getUGC.GetUserGameCollectionImpl(userName);
 

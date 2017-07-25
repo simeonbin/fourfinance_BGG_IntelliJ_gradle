@@ -26,3 +26,10 @@ coming back as a Response to the REST-API Call is EQUAL to the Scraped alphanume
 
 strXPathLanguageDependence = ".//*[@id='mainbody']/div/div[1]/div[1]/div[2]/ng-include/div/div/ui-view/ui-view/div[1]/
 overview-module/description-module/div/div[2]/div/div[3]/div[2]/div[1]/div/ul/li/div[2]/span/span";
+
+25-07-2017, Simeon:
+Fixed the Command Line execution problem, that I had yesterday.
+I am creating a .JAR file through a Task in IntelliJ, gradle, build.gradle.
+So, now you can run the JAR from the command line.
+But as it is you cannot have command line arguments, therefore I set the firefox_Profile inside the Main.class. 
+{ thanks to mkyong article: http://www.mkyong.com/gradle/gradle-create-a-jar-file-with-dependencies/}
